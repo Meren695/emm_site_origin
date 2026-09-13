@@ -1,0 +1,1299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Easy Forms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "Form Settings"
+msgstr ""
+
+msgid "Loading data..."
+msgstr ""
+
+msgid "Page "
+msgstr ""
+
+msgid " of "
+msgstr ""
+
+msgid "&laquo; Back"
+msgstr ""
+
+msgid "Forward &raquo;"
+msgstr ""
+
+msgid "Delete this lead?"
+msgstr ""
+
+msgid "Delete this log entry?"
+msgstr ""
+
+msgid "Delete error"
+msgstr ""
+
+msgid "Are you sure you want to permanently delete ALL leads from the database?"
+msgstr ""
+
+msgid "Error clearing leads table."
+msgstr ""
+
+msgid "Are you sure you want to completely clear the error log?"
+msgstr ""
+
+msgid "Error clearing the log."
+msgstr ""
+
+msgid "Copied!"
+msgstr ""
+
+msgid "Are you sure you want to delete this form configuration?"
+msgstr ""
+
+msgid "Untitled"
+msgstr ""
+
+msgid "Please fill in all required fields (marked with an asterisk *) in form settings."
+msgstr ""
+
+msgid "Save error: "
+msgstr ""
+
+msgid "Network error"
+msgstr ""
+
+msgid "All forms"
+msgstr ""
+
+msgid "Form views"
+msgstr ""
+
+msgid "Successful submissions"
+msgstr ""
+
+msgid "Conversion Rate (CR)"
+msgstr ""
+
+msgid "New configuration"
+msgstr ""
+
+msgid "New request from the site"
+msgstr ""
+
+msgid "Form data:\n{{__fields}}"
+msgstr ""
+
+msgid "Form field name"
+msgstr ""
+
+msgid "JSON Key"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Delete file"
+msgstr ""
+
+msgid "Field name (e.g., phone)"
+msgstr ""
+
+msgid "JSON Key (e.g., customer_phone)"
+msgstr ""
+
+msgid "Field name (e.g., user_phone)"
+msgstr ""
+
+msgid "B24 Key (e.g., PHONE)"
+msgstr ""
+
+msgid "Select file for auto-reply"
+msgstr ""
+
+msgid "Please fill in the "Field selector" in all global validation rules."
+msgstr ""
+
+msgid "Example: .png, .jpg, application/pdf"
+msgstr ""
+
+msgid "Example: ^[0-9]+$"
+msgstr ""
+
+msgid "Example: 7340032 (in bytes)"
+msgstr ""
+
+msgid "Example: 10"
+msgstr ""
+
+msgid "Delete validation settings for this selector?"
+msgstr ""
+
+msgid "Please enter an email for the test"
+msgstr ""
+
+msgid "ON"
+msgstr ""
+
+msgid "OFF"
+msgstr ""
+
+msgid "<strong>Success:</strong> "
+msgstr ""
+
+msgid "<strong>Error:</strong> "
+msgstr ""
+
+msgid "<strong>Network error.</strong>"
+msgstr ""
+
+msgid "Configuration copied to clipboard!"
+msgstr ""
+
+msgid "Please paste the configuration code to import."
+msgstr ""
+
+msgid "Invalid data format. Make sure you copied the correct code."
+msgstr ""
+
+msgid "Are you sure? This will completely overwrite the current form and validation settings!"
+msgstr ""
+
+msgid "The page will be reloaded."
+msgstr ""
+
+msgid "Import error: "
+msgstr ""
+
+msgid "Network error during import"
+msgstr ""
+
+msgid "Error loading data: "
+msgstr ""
+
+msgid "Unknown error"
+msgstr ""
+
+msgid "Network error loading data. Check the browser console."
+msgstr ""
+
+msgid "No data"
+msgstr ""
+
+msgid "Lead data"
+msgstr ""
+
+msgid "Copy to clipboard"
+msgstr ""
+
+msgid "Request details (JSON)"
+msgstr ""
+
+msgid "Access denied"
+msgstr ""
+
+msgid "Settings saved"
+msgstr ""
+
+msgid "Validation rules saved"
+msgstr ""
+
+msgid "General settings saved"
+msgstr ""
+
+msgid "Invalid JSON format"
+msgstr ""
+
+msgid "Settings successfully imported"
+msgstr ""
+
+msgid "Invalid email address"
+msgstr ""
+
+msgid "Test message from Form Settings"
+msgstr ""
+
+msgid "Congratulations!\n\nIf you received this email, it means the SMTP of the Form Settings plugin is working correctly."
+msgstr ""
+
+msgid "Test email sent successfully!"
+msgstr ""
+
+msgid "Error sending email. Check SMTP settings and error log (if enabled)."
+msgstr ""
+
+msgid "Leads table not found. Please reactivate the plugin."
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Form"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "View data"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "No leads yet."
+msgstr ""
+
+msgid "Logs table not found. Please reactivate the plugin."
+msgstr ""
+
+msgid "Error Type"
+msgstr ""
+
+msgid "Error Message"
+msgstr ""
+
+msgid "Data (JSON)"
+msgstr ""
+
+msgid "View JSON"
+msgstr ""
+
+msgid "No additional data"
+msgstr ""
+
+msgid "Error log is empty."
+msgstr ""
+
+msgid "Invalid security key"
+msgstr ""
+
+msgid "Leads table not found"
+msgstr ""
+
+msgid "Logs table not found"
+msgstr ""
+
+msgid "Управление Формами"
+msgstr ""
+
+msgid "Дашборд"
+msgstr ""
+
+msgid "Настройки форм"
+msgstr ""
+
+msgid "Валидация"
+msgstr ""
+
+msgid "Заявки"
+msgstr ""
+
+msgid "Журнал ошибок"
+msgstr ""
+
+msgid "Настройки"
+msgstr ""
+
+msgid "Справочник хуков"
+msgstr ""
+
+msgid "Всего заявок"
+msgstr ""
+
+msgid "Заявок за 30 дней"
+msgstr ""
+
+msgid "Ошибок за 30 дней"
+msgstr ""
+
+msgid "Популярные формы"
+msgstr ""
+
+msgid "Нет данных для отображения."
+msgstr ""
+
+msgid "Справочник событий JS (Events)"
+msgstr ""
+
+msgid "Плагин генерирует пользовательские JavaScript-события (Custom Events), к которым можно подключиться из любой части вашей темы для интеграции с аналитикой (Яндекс.Метрика, Яндекс.Цели, Google Analytics, VK Pixel и др.) или другой кастомной логики."
+msgstr ""
+
+msgid "Событие успешной отправки:"
+msgstr ""
+
+msgid "Срабатывает на объекте формы ("
+msgstr ""
+
+msgid ") после получения успешного ответа от сервера."
+msgstr ""
+
+msgid "Здесь вы можете настроить глобальные правила валидации для любых полей на сайте. Правила будут применяться ко всем формам, которые обрабатывает плагин, если в них есть поля с указанными селекторами."
+msgstr ""
+
+msgid "Справочник правил валидации"
+msgstr ""
+
+msgid "Стандартные правила"
+msgstr ""
+
+msgid "Обязательное поле:"
+msgstr ""
+
+msgid "Проверяет, что поле не пустое. Значение не требуется."
+msgstr ""
+
+msgid "Email адрес:"
+msgstr ""
+
+msgid "Проверяет корректность формата email. Значение не требуется."
+msgstr ""
+
+msgid "Минимум символов:"
+msgstr ""
+
+msgid "Задайте минимальную длину строки (например:"
+msgstr ""
+
+msgid "Максимум символов:"
+msgstr ""
+
+msgid "Задайте максимальную длину строки (например:"
+msgstr ""
+
+msgid "Пароль:"
+msgstr ""
+
+msgid "Проверяет, что строка содержит минимум 8 символов, хотя бы одну букву и одну цифру."
+msgstr ""
+
+msgid "Строгий пароль:"
+msgstr ""
+
+msgid "Проверяет минимум на 8 символов, наличие заглавной и строчной буквы, цифры и спецсимвола."
+msgstr ""
+
+msgid "Регулярное выражение:"
+msgstr ""
+
+msgid "Введите регулярное выражение для проверки (например:"
+msgstr ""
+
+msgid "для латиницы)."
+msgstr ""
+
+msgid "Работа с числами"
+msgstr ""
+
+msgid "Только числа:"
+msgstr ""
+
+msgid "Поле должно содержать только цифры. Значение не требуется."
+msgstr ""
+
+msgid "Только целые числа:"
+msgstr ""
+
+msgid "Запрещает ввод дробных значений. Значение не требуется."
+msgstr ""
+
+msgid "Минимальное число:"
+msgstr ""
+
+msgid "Задайте нижний порог (например:"
+msgstr ""
+
+msgid "Максимальное число:"
+msgstr ""
+
+msgid "Задайте верхний порог (например:"
+msgstr ""
+
+msgid "Работа с файлами (только input type="file")"
+msgstr ""
+
+msgid "Мин. количество файлов:"
+msgstr ""
+
+msgid "Минимальное число прикрепленных файлов (например:"
+msgstr ""
+
+msgid "Макс. количество файлов:"
+msgstr ""
+
+msgid "Максимальное число прикрепленных файлов (например:"
+msgstr ""
+
+msgid "Макс. общий вес:"
+msgstr ""
+
+msgid "Ограничение по размеру в байтах (например:"
+msgstr ""
+
+msgid "= 7МБ)."
+msgstr ""
+
+msgid "Допустимые типы:"
+msgstr ""
+
+msgid "Список расширений или"
+msgstr ""
+
+msgid "MIME-типов"
+msgstr ""
+
+msgid "через запятую (например:"
+msgstr ""
+
+msgid "Подробная информация о доступных правилах и их поведении доступна в официальной документации:"
+msgstr ""
+
+msgid "Список заявок"
+msgstr ""
+
+msgid "Поиск по email/данным..."
+msgstr ""
+
+msgid "Найти"
+msgstr ""
+
+msgid "" class="button button-secondary" style="margin-right: 10px;">Экспорт в JSON"
+msgstr ""
+
+msgid "" class="button button-primary" style="margin-right: 10px;">Экспорт в CSV"
+msgstr ""
+
+msgid "Очистить все заявки"
+msgstr ""
+
+msgid "Загрузка..."
+msgstr ""
+
+msgid "" class="button button-secondary">Экспорт в JSON"
+msgstr ""
+
+msgid "" class="button button-primary">Экспорт в CSV"
+msgstr ""
+
+msgid "Очистить журнал"
+msgstr ""
+
+msgid "Настройки SMTP (Отправка почты)"
+msgstr ""
+
+msgid "Настройте внешний SMTP сервер для надежной доставки писем, игнорируя системную функцию wp_mail."
+msgstr ""
+
+msgid "Включить SMTP"
+msgstr ""
+
+msgid "SMTP сервер"
+msgstr ""
+
+msgid "Адрес вашего почтового сервера."
+msgstr ""
+
+msgid "SMTP порт"
+msgstr ""
+
+msgid "Тип шифрования"
+msgstr ""
+
+msgid "Отсутствует"
+msgstr ""
+
+msgid "Аутентификация SMTP"
+msgstr ""
+
+msgid "Имя пользователя SMTP"
+msgstr ""
+
+msgid "Пароль SMTP"
+msgstr ""
+
+msgid "Адрес отправителя"
+msgstr ""
+
+msgid "Адрес электронной почты для исходящих сообщений."
+msgstr ""
+
+msgid "Принудительно Использовать Адрес Отправителя"
+msgstr ""
+
+msgid "Имя отправителя"
+msgstr ""
+
+msgid "Имя, от которого будут приходить письма."
+msgstr ""
+
+msgid "Отправить тестовое письмо"
+msgstr ""
+
+msgid "Внимание: перед отправкой тестового письма убедитесь, что вы сохранили текущие настройки SMTP (кнопка справа вверху)."
+msgstr ""
+
+msgid "Адреса почты"
+msgstr ""
+
+msgid "Введите адрес электронной почты, на который вы хотите отправить тестовое электронное письмо."
+msgstr ""
+
+msgid "Собственный текст письма"
+msgstr ""
+
+msgid "откл"
+msgstr ""
+
+msgid "Замените стандартный шаблон письма на собственный контент."
+msgstr ""
+
+msgid "Тема"
+msgstr ""
+
+msgid "Тестовое сообщение Настроек форм"
+msgstr ""
+
+msgid "Введите тему сообщения."
+msgstr ""
+
+msgid "Сообщение"
+msgstr ""
+
+msgid "Это тестовое письмо от плагина Настроек форм."
+msgstr ""
+
+msgid "Введите текст сообщения."
+msgstr ""
+
+msgid "Отправить тестовый e-mail"
+msgstr ""
+
+msgid "Аналитика и Данные"
+msgstr ""
+
+msgid "Отправлять строки с пустыми значениями полей"
+msgstr ""
+
+msgid "Если опция включена, незаполненные поля формы всё равно будут отправляться на почту и вебхуки со значением "НЕ ЗАПОЛНЕНО". Если выключена — пустые поля будут скрыты."
+msgstr ""
+
+msgid "Включить UTM-трекинг из коробки"
+msgstr ""
+
+msgid "Плагин будет автоматически собирать UTM-метки (source, medium, campaign, term, content) из URL и прикреплять их к заявкам. Метки сохраняются в рамках сессии пользователя."
+msgstr ""
+
+msgid "Сбор данных об устройстве (Client Fingerprint)"
+msgstr ""
+
+msgid "Добавлять к заявкам информацию о браузере (User Agent), разрешении экрана и типе устройства (Mobile/Desktop)."
+msgstr ""
+
+msgid "Включить базовую тех. информацию (Страница, Форма, IP)"
+msgstr ""
+
+msgid "Добавлять базовую информацию о заявке в специальный технический блок внизу письма."
+msgstr ""
+
+msgid "Автоматическая очистка БД (GDPR)"
+msgstr ""
+
+msgid "Хранить заявки (дней):"
+msgstr ""
+
+msgid "0 - хранить вечно"
+msgstr ""
+
+msgid "Хранить логи (дней):"
+msgstr ""
+
+msgid "Работа с файлами"
+msgstr ""
+
+msgid "Сохранять файлы в медиабиблиотеку WP"
+msgstr ""
+
+msgid "По умолчанию загруженные файлы прикрепляются к письму и сразу удаляются с сервера. При включении этой опции файлы будут загружаться в Медиабиблиотеку WordPress, а в письмо будет отправляться ссылка на них."
+msgstr ""
+
+msgid "Максимальный вес вложений для email (в Мегабайтах)"
+msgstr ""
+
+msgid "Почтовые серверы часто блокируют тяжелые письма. Если общий вес прикрепленных файлов превысит этот лимит, плагин автоматически загрузит файлы в Медиабиблиотеку и отправит в письме ссылки на их скачивание."
+msgstr ""
+
+msgid "Безопасность и антиспам"
+msgstr ""
+
+msgid "Включить Honeypot (Приманка для ботов)"
+msgstr ""
+
+msgid "Добавляет скрытое поле в форму. Если бот его заполнит, заявка будет отклонена."
+msgstr ""
+
+msgid "Включить лимит запросов (Rate Limiting)"
+msgstr ""
+
+msgid "Ограничивает количество отправок с одного IP-адреса."
+msgstr ""
+
+msgid "Максимум отправок:"
+msgstr ""
+
+msgid "За время (минут):"
+msgstr ""
+
+msgid "Общие настройки плагина"
+msgstr ""
+
+msgid "Режим совместимости с кэшированием (AJAX Nonce)"
+msgstr ""
+
+msgid "Включите эту опцию, если вы используете плагины жесткого кэширования (WP Rocket, LiteSpeed Cache и др.). Плагин будет получать свежий токен безопасности (Nonce) через AJAX перед каждой отправкой формы, чтобы предотвратить ошибку "Недействительный ключ безопасности"."
+msgstr ""
+
+msgid "Отключить автоматическую валидацию HTML5 (required)"
+msgstr ""
+
+msgid "Если включено, плагин не будет автоматически добавлять правило "Обязательное поле" для полей с атрибутом"
+msgstr ""
+
+msgid "Подключить библиотеку JustValidate"
+msgstr ""
+
+msgid "Загружать локальный файл JustValidate.js из плагина. Отключите, если библиотека уже подключена в вашей теме."
+msgstr ""
+
+msgid "Подключить библиотеку IMask (Маски ввода)"
+msgstr ""
+
+msgid "Загружать локальный файл imask.min.js из плагина."
+msgstr ""
+
+msgid "Код инициализации масок (IMask)"
+msgstr ""
+
+msgid "Скрипт выполнится после загрузки страницы."
+msgstr ""
+
+msgid "Экспорт и Импорт конфигураций"
+msgstr ""
+
+msgid "Экспорт настроек"
+msgstr ""
+
+msgid "Нажмите кнопку ниже для генерации кода"
+msgstr ""
+
+msgid "Сгенерировать код"
+msgstr ""
+
+msgid "Импорт настроек"
+msgstr ""
+
+msgid "Вставьте код конфигурации сюда..."
+msgstr ""
+
+msgid "Импортировать (Внимание: старые настройки будут удалены!)"
+msgstr ""
+
+msgid "Справочник PHP хуков и фильтров (для разработчиков)"
+msgstr ""
+
+msgid "Плагин предоставляет набор хуков, с помощью которых вы можете изменять поведение форм, логику отправки почты и вебхуков прямо из вашего файла"
+msgstr ""
+
+msgid "Имя хука"
+msgstr ""
+
+msgid "Тип"
+msgstr ""
+
+msgid "Описание и пример использования"
+msgstr ""
+
+msgid "Позволяет добавить или изменить переменные (шорткоды) для тела письма."
+msgstr ""
+
+msgid "Позволяет динамически изменить адрес получателя (дополнительно к Smart Routing)."
+msgstr ""
+
+msgid "Позволяет переопределить тему письма перед отправкой."
+msgstr ""
+
+msgid "Срочно: "
+msgstr ""
+
+msgid "Позволяет добавить кастомные заголовки письма (например, CC, BCC)."
+msgstr ""
+
+msgid "Позволяет полностью переопределить финальный HTML-код тела письма."
+msgstr ""
+
+msgid "Передаются:"
+msgstr ""
+
+msgid ", но до вебхуков."
+msgstr ""
+
+msgid "Позволяет изменить массив данных перед отправкой на соответствующий вебхук."
+msgstr ""
+
+msgid "Позволяет модифицировать или очистить данные перед сохранением в локальную таблицу"
+msgstr ""
+
+msgid "Срабатывает в самом конце цепочки, после того как заявка сохранена в базу данных."
+msgstr ""
+
+msgid "Действия"
+msgstr ""
+
+msgid "Добавить настройку (селектор)"
+msgstr ""
+
+msgid "Добавить поле"
+msgstr ""
+
+msgid "Сохранить изменения"
+msgstr ""
+
+msgid "Новая настройка"
+msgstr ""
+
+msgid "Включить конфигурацию"
+msgstr ""
+
+msgid "Только валидация (нативная отправка)"
+msgstr ""
+
+msgid "Отключить AJAX-отправку"
+msgstr ""
+
+msgid "Название настройки *"
+msgstr ""
+
+msgid "Селектор отбора *"
+msgstr ""
+
+msgid "селектор"
+msgstr ""
+
+msgid "Email получателя *"
+msgstr ""
+
+msgid "разделять запятой"
+msgstr ""
+
+msgid "Включить умную маршрутизацию (Smart Routing)"
+msgstr ""
+
+msgid "Настройте правила отправки писем разным получателям в зависимости от значений полей формы."
+msgstr ""
+
+msgid "Если ни одно из правил не сработает, письмо будет отправлено на базовый Email получателя, указанный выше."
+msgstr ""
+
+msgid "+ Добавить правило"
+msgstr ""
+
+msgid "Тема письма *"
+msgstr ""
+
+msgid "Сообщение *"
+msgstr ""
+
+msgid "Ответ отправителю"
+msgstr ""
+
+msgid "Включить ответ отправителю"
+msgstr ""
+
+msgid "Селектор поля"
+msgstr ""
+
+msgid "поле, в котором указан email пользователя (например, [name="email"] или #user-email)"
+msgstr ""
+
+msgid "Тема письма"
+msgstr ""
+
+msgid "Спасибо за вашу заявку!"
+msgstr ""
+
+msgid "Текст письма"
+msgstr ""
+
+msgid "Файлы для отправки"
+msgstr ""
+
+msgid "файлы, которые будут прикреплены к письму"
+msgstr ""
+
+msgid "+ Добавить файл"
+msgstr ""
+
+msgid "Событие успешной отправки (Custom JS)"
+msgstr ""
+
+msgid "Скрипт выполнится после успешной отправки формы. Доступные переменные:"
+msgstr ""
+
+msgid "(элемент формы),"
+msgstr ""
+
+msgid "(ответ сервера)."
+msgstr ""
+
+msgid "Условная логика (Отображение полей)"
+msgstr ""
+
+msgid "Настройте правила, при которых определенные блоки будут показываться или скрываться в зависимости от значений других полей."
+msgstr ""
+
+msgid "Поведение после отправки"
+msgstr ""
+
+msgid "Перенаправление на страницу"
+msgstr ""
+
+msgid "Перенаправлять в новой вкладке"
+msgstr ""
+
+msgid "Скрыть блок после отправки"
+msgstr ""
+
+msgid "Селектор блока для скрытия *"
+msgstr ""
+
+msgid ".form-wrapper или #my-form-container"
+msgstr ""
+
+msgid "Укажите CSS селектор блока, который нужно скрыть. Оставьте пустым, чтобы скрыть саму форму."
+msgstr ""
+
+msgid "Эффект скрытия"
+msgstr ""
+
+msgid "Fade Out (Затухание)"
+msgstr ""
+
+msgid "Slide Up (Сворачивание)"
+msgstr ""
+
+msgid "Длительность эффекта (мс)"
+msgstr ""
+
+msgid "Задержка перед скрытием (мс)"
+msgstr ""
+
+msgid "Отобразить блок после отправки"
+msgstr ""
+
+msgid "Селектор блока для отображения *"
+msgstr ""
+
+msgid ".success-message или #my-thanks-container"
+msgstr ""
+
+msgid "Укажите CSS селектор блока, который нужно отобразить. Блок изначально должен быть скрыт (например, через"
+msgstr ""
+
+msgid "Эффект появления"
+msgstr ""
+
+msgid "Fade In (Плавное появление)"
+msgstr ""
+
+msgid "Slide Down (Разворачивание)"
+msgstr ""
+
+msgid "Задержка перед появлением (мс)"
+msgstr ""
+
+msgid "Визуализация отправки (Лоадер)"
+msgstr ""
+
+msgid "Показывать лоадер поверх формы при отправке"
+msgstr ""
+
+msgid "Цвет спиннера (Кольца)"
+msgstr ""
+
+msgid "Фон оверлея (Затемнение)"
+msgstr ""
+
+msgid "Интеграция (Webhooks)"
+msgstr ""
+
+msgid "Вы можете включить сразу несколько интеграций для одной формы."
+msgstr ""
+
+msgid "Плагин сам сформирует красивое сообщение и отправит его в Telegram."
+msgstr ""
+
+msgid "Bitrix24 (Входящий вебхук CRM)"
+msgstr ""
+
+msgid "URL входящего вебхука (crm.lead.add) *"
+msgstr ""
+
+msgid "Маппинг полей для Bitrix24 (опционально)"
+msgstr ""
+
+msgid "Укажите, в какие системные поля (NAME, PHONE, EMAIL, UF_CRM_123) записывать данные. Остальные поля попадут в Комментарий."
+msgstr ""
+
+msgid "+ Добавить поле"
+msgstr ""
+
+msgid "Custom Webhook (Отправка JSON)"
+msgstr ""
+
+msgid "Данные будут отправлены методом POST в формате JSON."
+msgstr ""
+
+msgid "Кастомный маппинг полей (Опционально)"
+msgstr ""
+
+msgid "Если вашей CRM нужны строгие ключи, укажите их тут (Например: "Телефон" -> "customer_phone")."
+msgstr ""
+
+msgid "+ Добавить маппинг"
+msgstr ""
+
+msgid "Интеграция систем аналитики"
+msgstr ""
+
+msgid "Укажите идентификаторы событий. Они будут автоматически отправляться при успешной отправке формы."
+msgstr ""
+
+msgid "Яндекс.Метрика (ID счетчика)"
+msgstr ""
+
+msgid "Яндекс.Метрика (ID цели)"
+msgstr ""
+
+msgid "Google Analytics (Событие)"
+msgstr ""
+
+msgid "VK Pixel (Событие)"
+msgstr ""
+
+msgid "&times; Удалить"
+msgstr ""
+
+msgid "Имя поля (name)"
+msgstr ""
+
+msgid "Условие"
+msgstr ""
+
+msgid "Равно"
+msgstr ""
+
+msgid "Не равно"
+msgstr ""
+
+msgid "Содержит"
+msgstr ""
+
+msgid "Отмечено (Checkbox/Radio)"
+msgstr ""
+
+msgid "Не отмечено (Checkbox/Radio)"
+msgstr ""
+
+msgid "Значение"
+msgstr ""
+
+msgid "Целевой блок (Селектор)"
+msgstr ""
+
+msgid "Действие"
+msgstr ""
+
+msgid "Показать"
+msgstr ""
+
+msgid "Скрыть"
+msgstr ""
+
+msgid "Эффект"
+msgstr ""
+
+msgid "Скорость (мс)"
+msgstr ""
+
+msgid "Задержка (мс)"
+msgstr ""
+
+msgid "Москва"
+msgstr ""
+
+msgid "Email получателя"
+msgstr ""
+
+msgid "Селектор поля:"
+msgstr ""
+
+msgid "Например: input[name=\'phone\'] или #file-upload"
+msgstr ""
+
+msgid "Удалить поле"
+msgstr ""
+
+msgid "Тип правила *"
+msgstr ""
+
+msgid "Стандартные"
+msgstr ""
+
+msgid "Обязательное поле"
+msgstr ""
+
+msgid "Email адрес"
+msgstr ""
+
+msgid "Минимум символов"
+msgstr ""
+
+msgid "Максимум символов"
+msgstr ""
+
+msgid "Пароль (мин. 8, буква, цифра)"
+msgstr ""
+
+msgid "Строгий пароль (Сложный)"
+msgstr ""
+
+msgid "Регулярное выражение"
+msgstr ""
+
+msgid "Числа"
+msgstr ""
+
+msgid "Только числа"
+msgstr ""
+
+msgid "Только целые числа"
+msgstr ""
+
+msgid "Минимальное число"
+msgstr ""
+
+msgid "Максимальное число"
+msgstr ""
+
+msgid "Файлы (только для type=\'file\')"
+msgstr ""
+
+msgid "Мин. количество файлов"
+msgstr ""
+
+msgid "Макс. количество файлов"
+msgstr ""
+
+msgid "Макс. общий вес (в байтах)"
+msgstr ""
+
+msgid "Допустимые типы (напр. .png, .jpg)"
+msgstr ""
+
+msgid "Значение (опц.)"
+msgstr ""
+
+msgid "Например: 10"
+msgstr ""
+
+msgid "Текст ошибки"
+msgstr ""
+
+msgid "Ошибка валидации"
+msgstr ""
+
+msgid "Удалить правило"
+msgstr ""
+
+msgid "Required field"
+msgstr ""
+
+msgid "Attach at least files: "
+msgstr ""
+
+msgid "Maximum attachment size exceeded: "
+msgstr ""
+
+msgid "File ""
+msgstr ""
+
+msgid "" has an unsupported format"
+msgstr ""
+
+msgid "Form is temporarily unavailable. Please refresh the page."
+msgstr ""
+
+msgid "Failed to submit the form. Please try again later."
+msgstr ""
+
+msgid "Network error. Please try again later."
+msgstr ""
+
+msgid "Invalid email"
+msgstr ""
+
+msgid "Value is too short"
+msgstr ""
+
+msgid "Value is too long"
+msgstr ""
+
+msgid "Password is too simple"
+msgstr ""
+
+msgid "Password must be complex (lowercase and uppercase letters, numbers, special characters)"
+msgstr ""
+
+msgid "Enter a number"
+msgstr ""
+
+msgid "Enter an integer"
+msgstr ""
+
+msgid "Value is too small"
+msgstr ""
+
+msgid "Value is too large"
+msgstr ""
+
+msgid "Invalid format"
+msgstr ""
+
+msgid "Invalid value"
+msgstr ""
+
+msgid "Maximum files: "
+msgstr ""
+
+msgid "Security error (nonce)."
+msgstr ""
+
+msgid "Spam Protection"
+msgstr ""
+
+msgid "Blocked by Honeypot (hidden field wpef_website_url is filled)."
+msgstr ""
+
+msgid "Thank you! Your request has been sent."
+msgstr ""
+
+msgid "Too many requests. Please wait a moment before the next submission."
+msgstr ""
+
+msgid "Form filled out too quickly. You might be a bot."
+msgstr ""
+
+msgid "Form configuration not found or disabled."
+msgstr ""
+
+msgid "Consent_to_personal_data_processing"
+msgstr ""
+
+msgid "NOT FILLED"
+msgstr ""
+
+msgid "Received"
+msgstr ""
+
+msgid "Not received"
+msgstr ""
+
+msgid "Consent to processing"
+msgstr ""
+
+msgid "Blocked file upload with forbidden extension: "
+msgstr ""
+
+msgid "Failed to create attachment in DB"
+msgstr ""
+
+msgid "Attached files:"
+msgstr ""
+
+msgid "Technical Information"
+msgstr ""
+
+msgid "Submission page"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "IP address"
+msgstr ""
+
+msgid "Browser (User Agent)"
+msgstr ""
+
+msgid "Screen resolution"
+msgstr ""
+
+msgid "Device type"
+msgstr ""
+
+msgid "Page"
+msgstr ""
+
+msgid "Recipient email not specified. Check form settings."
+msgstr ""
+
+msgid "Failed to connect to SMTP server. Check hosting mail settings."
+msgstr ""
+
+msgid "Mail sending function (mail) is disabled on hosting."
+msgstr ""
+
+msgid "Invalid email address provided"
+msgstr ""
+
+msgid "SMTP server error"
+msgstr ""
+
+msgid "Message body empty"
+msgstr ""
+
+msgid "Files (Attachments)"
+msgstr ""
+
+msgid "Links to files"
+msgstr ""
+
+msgid "New request:"
+msgstr ""
+
+msgid "Page:"
+msgstr ""
+
+msgid "Request from form:"
+msgstr ""
+
+msgid " | Auto-reply error ("
+msgstr ""
+
+msgid "Unknown sending error"
+msgstr ""
+
+msgid " | Auto-reply not sent: email field ("
+msgstr ""
+
+msgid ") not found or contains invalid email (Received: "
+msgstr ""
+
+msgid "Request successfully sent!"
+msgstr ""
+
+msgid "Error sending mail on the server."
+msgstr ""
+

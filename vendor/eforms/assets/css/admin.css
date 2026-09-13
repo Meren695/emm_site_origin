@@ -1,0 +1,563 @@
+/* Базовые стили для чистой админки */
+.wp-easy-forms-wrap {
+    max-width: 100%;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+/* Layout с боковым сайдбаром */
+.wpef-layout {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.wpef-main-content {
+    flex: 1;
+    min-width: 0; /* предотвращает переполнение flex-элемента */
+}
+.wpef-sidebar {
+    width: 280px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 40px;
+}
+
+/* Tabs */
+.wpef-tab-content {
+    display: none;
+}
+.wpef-tab-content.wpef-tab-active {
+    display: block;
+}
+
+.wp-easy-forms-wrap .nav-tab-wrapper {
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.wp-easy-forms-wrap .nav-tab {
+    font-size: 14px;
+    padding: 8px 15px;
+    transition: none;
+    margin-left: 0;
+    margin-right: 8px;
+}
+.wp-easy-forms-wrap .nav-tab-active {
+    box-shadow: none;
+    outline: none;
+}
+.wp-easy-forms-wrap .nav-tab:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* Боковая панель (Сайдбар) */
+.wpef-sidebar-box {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 15px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.wpef-sidebar-box h3 {
+    margin: 0 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f1;
+    font-size: 14px;
+}
+.wpef-sidebar-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.wpef-sidebar-actions .button {
+    width: 100%;
+    text-align: center;
+}
+
+/* CodeMirror Custom Dark Theme */
+.wpef-code-editor-wrapper .CodeMirror {
+    background: #0f111a;
+    color: #e2e8f0;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    font-family: 'Fira Code', Consolas, Monaco, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    height: 250px;
+}
+.wpef-code-editor-wrapper .CodeMirror-gutters {
+    background: #1e293b;
+    border-right: 1px solid #334155;
+}
+.wpef-code-editor-wrapper .CodeMirror-linenumber {
+    color: #64748b;
+}
+.wpef-code-editor-wrapper .CodeMirror-cursor {
+    border-left: 2px solid #6366f1 !important;
+}
+.wpef-code-editor-wrapper .CodeMirror-activeline-background {
+    background: rgba(99, 102, 241, 0.1) !important;
+}
+.wpef-code-editor-wrapper .CodeMirror-selected {
+    background: rgba(99, 102, 241, 0.3) !important;
+}
+/* JS Syntax Highlighting (Dracula / One Dark style) */
+.wpef-code-editor-wrapper .cm-keyword { color: #c678dd; }
+.wpef-code-editor-wrapper .cm-operator { color: #56b6c2; }
+.wpef-code-editor-wrapper .cm-variable { color: #e2e8f0; }
+.wpef-code-editor-wrapper .cm-variable-2 { color: #e5c07b; }
+.wpef-code-editor-wrapper .cm-variable-3 { color: #e5c07b; }
+.wpef-code-editor-wrapper .cm-string { color: #98c379; }
+.wpef-code-editor-wrapper .cm-string-2 { color: #98c379; }
+.wpef-code-editor-wrapper .cm-number { color: #d19a66; }
+.wpef-code-editor-wrapper .cm-def { color: #61afef; }
+.wpef-code-editor-wrapper .cm-property { color: #61afef; }
+.wpef-code-editor-wrapper .cm-builtin { color: #56b6c2; }
+.wpef-code-editor-wrapper .cm-comment { color: #64748b; font-style: italic; }
+.wp-easy-forms-toolbar {
+    display: none;
+}
+
+.wpef-config-block,
+.wpef-val-field-block {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.05);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.wpef-config-block:hover,
+.wpef-val-field-block:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    border-color: #a7aaad;
+}
+.wpef-config-header {
+    padding: 15px 25px;
+    border-bottom: 1px solid #dcdcde;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8fafc;
+    border-radius: 8px 8px 0 0;
+    border-left: 4px solid #2271b1;
+}
+.wpef-config-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d2327;
+}
+.wpef-config-body {
+    padding: 25px;
+}
+.wpef-section-title {
+    margin: 35px 0 20px;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f1;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d2327;
+    background-color: #eef7ff;
+}
+.wpef-row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.wpef-col {
+    flex: 1;
+}
+.wpef-col-full {
+    flex: 100%;
+}
+.wpef-config-body label,
+.wpef-val-field-body label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #3c434a;
+}
+.wpef-config-body input[type="text"],
+.wpef-config-body input[type="number"],
+.wpef-config-body input[type="password"],
+.wpef-config-body input[type="email"],
+.wpef-config-body textarea,
+.wpef-val-field-block input[type="text"],
+.wpef-val-field-block select {
+    width: 100%;
+    padding: 6px 12px;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.03);
+    color: #3c434a;
+}
+.wpef-config-body input[type="text"]:focus,
+.wpef-config-body input[type="number"]:focus,
+.wpef-config-body input[type="password"]:focus,
+.wpef-config-body input[type="email"]:focus,
+.wpef-config-body textarea:focus,
+.wpef-val-field-block input[type="text"]:focus,
+.wpef-val-field-block select:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: 2px solid transparent;
+}
+
+/* UI Switch */
+.wpef-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.wpef-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.wpef-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+}
+.wpef-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+input:checked + .wpef-slider {
+    background-color: #2271b1;
+}
+input:checked + .wpef-slider:before {
+    transform: translateX(20px);
+}
+
+/* Input group */
+.wpef-input-group {
+    display: flex;
+    align-items: stretch;
+}
+.wpef-config-body .wpef-input-group input[type="text"] {
+    flex: 1;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.wpef-input-suffix {
+    background: #f0f0f1;
+    border: 1px solid #8c8f94;
+    border-left: none;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    color: #50575e;
+    font-size: 13px;
+    border-radius: 0 4px 4px 0;
+    white-space: nowrap;
+}
+
+.wpef-code-editor-wrapper {
+    border: 1px solid #ccd0d4;
+}
+
+/* Save Msg */
+.wpef-save-msg {
+    color: #059669;
+    font-weight: 600;
+    display: none;
+    background: #d1fae5;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.wpef-val-field-block {
+    padding: 0;
+    overflow: hidden;
+    background: #fff;
+}
+.wpef-val-field-header {
+    background: #fcfcfc;
+    padding: 15px 25px;
+    border-bottom: 1px solid #dcdcde;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; /* Выравнивание по низу, чтобы кнопка была на уровне инпута */
+    gap: 20px;
+}
+.wpef-val-field-header > div {
+    flex: 1;
+}
+.wpef-val-field-header label {
+    color: #1d2327;
+    display: block;
+    margin-bottom: 8px;
+}
+.wpef-val-field-body {
+    padding: 25px;
+}
+.wpef-val-rule-block {
+    background: #f8fafc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    transition: border-color 0.2s;
+}
+.wpef-val-rule-block:hover {
+    border-color: #cbd5e1;
+}
+.wpef-val-rule-block .wpef-row-flex {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end; /* Выравнивание по нижней границе элементов */
+    flex-wrap: nowrap; /* Запрещаем перенос строк */
+}
+.wpef-val-rule-block .wpef-row-flex > div {
+    display: flex;
+    flex-direction: column; /* Лейбл сверху, поле снизу */
+    justify-content: flex-end; /* Прижимаем к низу */
+}
+.wpef-val-rule-block .wpef-row-flex > div.wpef-col-type {
+    flex: 0 0 250px; /* Фиксированная ширина для селекта */
+}
+.wpef-val-rule-block .wpef-row-flex > div.wpef-col-value {
+    flex: 1; /* Растягивается */
+    min-width: 200px;
+}
+.wpef-val-rule-block .wpef-row-flex > div.wpef-col-error {
+    flex: 1; /* Растягивается */
+    min-width: 200px;
+}
+.wpef-val-rule-block .wpef-row-flex > div.wpef-col-action {
+    flex: 0 0 30px; /* Фиксированная ширина для кнопки */
+}
+.wpef-val-rule-block label {
+    color: #50575e;
+    font-weight: 500;
+    margin-bottom: 5px; /* Единый отступ для всех лейблов */
+    display: block;
+}
+
+/* Инструкция по валидации */
+.wpef-validation-help {
+    margin-top: 40px;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 6px;
+    padding: 25px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.wpef-validation-help h3 {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    color: #1d2327;
+    border-bottom: 1px solid #f0f0f1;
+    padding-bottom: 10px;
+}
+.wpef-validation-help-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.wpef-help-group h4 {
+    color: #2271b1;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+.wpef-help-group ul {
+    margin: 0;
+    padding-left: 18px;
+    color: #50575e;
+    font-size: 13px;
+    line-height: 1.6;
+}
+.wpef-help-group ul li {
+    margin-bottom: 8px;
+}
+.wpef-help-group code {
+    background: #f0f0f1;
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #d63638;
+    font-size: 12px;
+}
+.wpef-val-rule-block select,
+.wpef-val-rule-block input {
+    border-color: #cbd5e1;
+    border-radius: 4px;
+    height: 30px; /* Фиксируем одинаковую высоту */
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+.wpef-validation-desc {
+    margin-bottom: 25px;
+    background: #fff;
+    padding: 15px 20px;
+    border-left: 4px solid #2271b1;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.wpef-validation-desc p {
+    margin: 0;
+    font-size: 14px;
+    color: #3c434a;
+}
+.wpef-intro-text {
+    margin-bottom: 20px;
+}
+/* Глобальная валидация стили */
+.wpef-btn-delete {
+    color: #d63638 !important;
+    border-color: #d63638 !important;
+    background: #fff !important;
+    cursor: pointer;
+}
+.wpef-btn-delete:hover {
+    background: #d63638 !important;
+    color: #fff !important;
+    border-color: #d63638 !important;
+}
+.wpef-btn-delete-icon {
+    color: #d63638;
+    border: 1px solid transparent;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    width: 30px; /* Та же высота, что и у инпутов */
+    height: 30px;
+    border-radius: 4px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.wpef-btn-delete-icon:hover {
+    background: #fef0f0;
+    border-color: #fbd6d6;
+}
+
+/* Модальное окно предпросмотра JSON */
+.wpef-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+}
+.wpef-modal-content {
+    background: #fff;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.wpef-modal-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #dcdcde;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fcfcfc;
+}
+.wpef-modal-header h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #1d2327;
+}
+.wpef-modal-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    color: #646970;
+    padding: 0;
+}
+.wpef-modal-close:hover {
+    color: #d63638;
+}
+.wpef-modal-body {
+    padding: 20px;
+    overflow-y: auto;
+    background: #f8fafc;
+}
+.wpef-json-preview {
+    margin: 0;
+    padding: 15px;
+    background: #1e1e1e;
+    color: #d4d4d4;
+    border-radius: 6px;
+    font-family: Consolas, Monaco, 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+.nav-tab-wrapper, .wrap h2.nav-tab-wrapper {
+    margin-bottom: 16px
+}
+
+/* Подсветка синтаксиса JSON */
+.wpef-json-key { color: #9cdcfe; font-weight: bold; }
+.wpef-json-string { color: #ce9178; }
+.wpef-json-number { color: #b5cea8; }
+.wpef-json-boolean { color: #569cd6; font-weight: bold; }
+.wpef-json-null { color: #569cd6; font-weight: bold; }
+
+/* Таблица данных заявки в модальном окне */
+.wpef-modal-content-data {
+    max-width: 600px;
+}
+.wpef-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.wpef-data-table th, .wpef-data-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+    font-size: 14px;
+}
+.wpef-data-table th {
+    background: #f8fafc;
+    font-weight: 600;
+    color: #1e293b;
+    width: 35%;
+    border-right: 1px solid #e2e8f0;
+    word-break: break-word;
+}
+.wpef-data-table td {
+    color: #334155;
+    word-break: break-word;
+}
+.wpef-data-table tr:last-child th, .wpef-data-table tr:last-child td {
+    border-bottom: none;
+}
+
